@@ -1,0 +1,21 @@
+[
+{
+  "modid": "GingerbreadMod",
+  "name": "Gingerbread Mod",
+  "description": "Gingerbread and festive decorations",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "TheMobiusArchives"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
