@@ -1,5 +1,6 @@
 package com.themobiusarchives.gingerbreadmod;
 
+import com.themobiusarchives.gingerbreadmod.init.ModBlocks;
 import com.themobiusarchives.gingerbreadmod.reference.Reference;
 
 import cpw.mods.fml.common.Mod;
@@ -22,7 +23,7 @@ public class GingerbreadMod {
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event)
 	{
-		
+		ModBlocks.init();
 	}
 
 	@Mod.EventHandler
