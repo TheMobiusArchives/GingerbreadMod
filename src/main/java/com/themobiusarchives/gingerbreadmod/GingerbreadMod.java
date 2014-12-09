@@ -1,7 +1,9 @@
 package com.themobiusarchives.gingerbreadmod;
 
 import com.themobiusarchives.gingerbreadmod.init.ModBlocks;
+import com.themobiusarchives.gingerbreadmod.init.Recipes;
 import com.themobiusarchives.gingerbreadmod.reference.Reference;
+import com.themobiusarchives.gingerbreadmod.util.LogHelper;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -17,18 +19,20 @@ public class GingerbreadMod {
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		
+		ModBlocks.init();
+		LogHelper.info("Pre-initializaiton complete!");
 	}
 
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event)
 	{
-		ModBlocks.init();
+		Recipes.init();
+		LogHelper.info("Initializaiton complete!");
 	}
 
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event)
 	{
-		
+		LogHelper.info("Post-initializaiton complete!");
 	}
 }
