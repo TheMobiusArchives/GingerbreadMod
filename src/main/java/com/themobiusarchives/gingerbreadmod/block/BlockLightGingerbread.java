@@ -1,6 +1,6 @@
 package com.themobiusarchives.gingerbreadmod.block;
 
-public class BlockLightGingerbread extends BlockGM
+public class BlockLightGingerbread extends GenericBlockGingerbread
 {
 	public BlockLightGingerbread()
 	{
